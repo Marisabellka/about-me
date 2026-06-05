@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Марина Ярошенко — Галерея</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <h1>Галерея</h1>
-        <nav>
+        <nav class="nav">
             <ul>
                 <li><a href="../index.html">Головна</a></li>
                 <li><a href="gallery.html">Галерея</a></li>
@@ -17,25 +18,23 @@
         </nav>
     </header>
 
-    <hr>
+    <main class="content">
+        <p class="lead">Декілька фотографій про мене та мої захоплення.</p>
 
-    <main>
-        <p>Декілька фотографій про мене та мої захоплення.</p>
+        <div class="gallery">
+            <figure class="gallery-figure">
+                <img class="gallery-photo" src="../photo/marina.jpg" width="300" alt="Марина Ярошенко">
+                <figcaption>Це я :)</figcaption>
+            </figure>
 
-        <figure>
-            <img src="../photo/marina.jpg" width="300" alt="Марина Ярошенко">
-            <figcaption>Це я :)</figcaption>
-        </figure>
-
-        <figure>
-            <img src="../photo/marina.jpg" width="200" alt="Марина Ярошенко">
-            <figcaption>Завжди у гарному настрої для навчання</figcaption>
-        </figure>
+            <figure class="gallery-figure">
+                <img class="gallery-photo" src="../photo/marina.jpg" width="200" alt="Марина Ярошенко">
+                <figcaption>Завжди у гарному настрої для навчання</figcaption>
+            </figure>
+        </div>
     </main>
 
-    <hr>
-
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2026 Марина Ярошенко. Сторінка «Про себе».</p>
     </footer>
 </body>
